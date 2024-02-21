@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazfit Bip U Pro</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- js -->
+  <script defer src="js/script.js"></script>
+  <script defer src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <div id="page">
+    <!-- primeira tela -->
+    <div id="first-screen">
+      <div class="card">
+        <div class="product">
+          <img src="assets/smartwatch.svg" alt="Smartwatch Amazfit">
+        </div>
+        <div class="content">
+          <div class="review">
+            <div class="tittle">
+              <h1>Avalie o produto</h1>
+              <p>O que você achou do produto <span>Smartwatch Amazfit Bip U Pro</span>?</p>
+            </div>
+            <div class="container">
+              <div class="stars-widget">
+                <input type="radio" name="rate" id="star-5">
+                <label for="star-5" class="ph-fill ph-star"></label>
+                <input type="radio" name="rate" id="star-4">
+                <label for="star-4" class="ph-fill ph-star"></label>
+                <input type="radio" name="rate" id="star-3">
+                <label for="star-3" class="ph-fill ph-star"></label>
+                <input type="radio" name="rate" id="star-2">
+                <label for="star-2" class="ph-fill ph-star"></label>
+                <input type="radio" name="rate" id="star-1">
+                <label for="star-1" class="ph-fill ph-star"></label>
+              </div>
+            </div>
+            <div class="helper-text">
+              <span>Ruim</span>
+              <span>Ótimo</span>
+            </div>
+          </div>
+          <button id="btn-continue" class="button">
+            Confirmar
+            <i class="ph ph-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- segunda tela -->
+    <div id="second-screen" class="hide">
+      <div class="card">
+        <div class="product">
+          <i id="togoback" class="ph ph-arrow-left"></i>
+          <img src="assets/smartwatch.svg" alt="Smartwatch Amazfit">
+        </div>
+        <div class="content">
+          <div class="comment">
+            <div class="tittle">
+              <h1>Deixe um comentário</h1>
+              <p>Conte sobre o motivo da sua avaliação</p>
+            </div>
+            <textarea id="comment-text" placeholder="Escreva aqui seu comentário..."></textarea>
+          </div>
+          <button class="button">
+            Enviar
+            <i class="ph ph-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
