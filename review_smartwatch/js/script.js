@@ -12,10 +12,6 @@ function handleClick() {
   toggleScreen()
 }
 
-function returnToHome() {
-  toggleScreen()
-}
-
 // pegando os eventos de click nos botoes
 btnContinue.addEventListener('click', handleClick)
-btnToGoBack.addEventListener('click', returnToHome)
+btnToGoBack.addEventListener('click', handleClick)

@@ -13,7 +13,7 @@
 <body>
   <div id="page">
     <!-- primeira tela -->
-    <div id="first-screen">
+    <section id="first-screen">
       <div class="card">
         <div class="product">
           <img src="assets/smartwatch.svg" alt="Smartwatch Amazfit">
@@ -49,9 +49,9 @@
           </button>
         </div>
       </div>
-    </div>
+    </section>
     <!-- segunda tela -->
-    <div id="second-screen" class="hide">
+    <section id="second-screen" class="hide">
       <div class="card">
         <div class="product">
           <i id="togoback" class="ph ph-arrow-left"></i>
@@ -71,7 +71,21 @@
           </button>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- modal wraper -->
+    <section id="modal-wrapper" class="open">
+      <div class="modal-card">
+        <h2>Agradecemos o seu feedback!</h2>
+        <div>
+          <p>Se gostar dos nossos produtos não se esqueça de compartilhar com seus amigos e familiares.</p>
+          <img src="assets/celebration.svg" alt="pessoas celebrando">
+        </div>
+        <i class="ph ph-x" id="close"></i>
+      </div>
+    </section>
+    <footer id="image-credit">
+      <a href="https://storyset.com/event">Event illustrations by Storyset</a>
+    </footer>
   </div>
 </body>
 </html>
